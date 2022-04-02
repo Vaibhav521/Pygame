@@ -6,3 +6,6 @@ This repository contains a collection of small python games made by me using  py
 
 * ### [Fire Balls](https://github.com/Vaibhav521/Pygame/tree/main/fire%20balls)
 	> Fire Balls is a 2d plane shooter game.
+	
+* ### [Pong](https://github.com/Vaibhav521/Pygame/tree/main/pong)
+	> Pong is a 2d  game.
