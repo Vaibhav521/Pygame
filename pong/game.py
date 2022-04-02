@@ -98,8 +98,8 @@ while True :
 	keys = pygame.key.get_pressed()
 	if keys[pygame.K_p] and not runs:
 		runs = True
-		ball_speed_x = 4 * random.choice((1,-1))
-		ball_speed_y = 4 * random.choice((1,-1))
+		ball_speed_x = 7 * random.choice((1,-1))
+		ball_speed_y = 7 * random.choice((1,-1))
 		player_score = 0
 		opponent_score = 0
 
