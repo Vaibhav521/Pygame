@@ -6,18 +6,18 @@ import random
 pygame.init()
 
 clock = pygame.time.Clock()
-win_w = 1280
-win_h = 960
+win_w = 800
+win_h = 500
 text_font = pygame.font.Font(None,30)
 
-
+pygame.display.set_caption('PONG')
 
 def display_score():
 	opp_score_surf =  text_font.render("Score"+ " "+ str(opponent_score),False,"red")
-	opp_score_surf_rect = opp_score_surf.get_rect(center=(60,20))
+	opp_score_surf_rect = opp_score_surf.get_rect(center=(80,20))
 
 	ply_score_surf =  text_font.render("Score" + " "+ str(player_score),False,"green")
-	ply_score_surf_rect = ply_score_surf.get_rect(center=(1200,20))
+	ply_score_surf_rect = ply_score_surf.get_rect(center=(700,20))
 
 	window.blit(opp_score_surf,opp_score_surf_rect)
 	window.blit(ply_score_surf,ply_score_surf_rect)
@@ -31,7 +31,7 @@ win_surf = text_font.render("YOU WON",False,"green")
 win_surf_rect = win_surf.get_rect(center=(win_w/2,win_h/2))
 
 play_again = text_font.render("PRESS P TO PLAY AGAIN ",False,"green")
-play_again_rect = play_again.get_rect(center=(win_w/2,550))
+play_again_rect = play_again.get_rect(center=(win_w/2,(win_h/2)+30))
 
 
 #muic 
@@ -49,8 +49,8 @@ window = pygame.display.set_mode((win_w,win_h))
 
 # shapes
 ball = pygame.Rect(win_w / 2 - 15, win_h / 2 - 15, 30, 30) #posx,posy,shape_size_x,shape_size_y
-player = pygame.Rect(win_w-20,win_h/2,10,140)
-opponent = pygame.Rect(10,win_h/2-70,10,140)
+player = pygame.Rect(win_w-20,win_h/2,10,100)
+opponent = pygame.Rect(10,win_h/2-70,10,100)
 
 
 bgcolor = pygame.Color((255,255,255))
