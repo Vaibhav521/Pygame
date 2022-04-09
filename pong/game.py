@@ -49,8 +49,8 @@ window = pygame.display.set_mode((win_w,win_h))
 
 # shapes
 ball = pygame.Rect(win_w / 2 - 15, win_h / 2 - 15, 30, 30) #posx,posy,shape_size_x,shape_size_y
-player = pygame.Rect(win_w-20,win_h/2,10,100)
-opponent = pygame.Rect(10,win_h/2-70,10,100)
+player = pygame.Rect(win_w-20,win_h/2,10,120)
+opponent = pygame.Rect(10,win_h/2-70,10,120)
 
 
 bgcolor = pygame.Color((255,255,255))
