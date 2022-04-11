@@ -10,5 +10,5 @@ This repository contains a collection of small python games made by me using  py
 * ### [Pong](https://github.com/Vaibhav521/Pygame/tree/main/pong)
 	> Pong is a 2d  game.
 
-* ### [Pong](https://github.com/Vaibhav521/Pygame/tree/main/stack)
+* ### [stack](https://github.com/Vaibhav521/Pygame/tree/main/stack)
 	> Stack is a 2d tile game.
